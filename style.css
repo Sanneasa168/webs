@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Suwannaphum:wght@100;300;400;700;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* Container class */
+.container {
+  width: 70vh;
+  margin: auto;
+  background-color: grey;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(17, 5, 67);
+}
+
+/* Titile  */
+.title {
+  text-align: center; /* Define word text it to center */
+  font-weight: 400;
+  color: rgb(150, 24, 4);
+  font-variant: small-caps;
+}
+.keyword {
+  font-weight: 700;
+  font-style: italic; /*Define អក្សរទ្រេត*/
+  color: rgb(34, 34, 145);
+  letter-spacing: 1px; /*Define space text*/
+  text-transform: uppercase; /*Change text ​from lowercase to capital*/
+}
+small {
+  letter-spacing: 1px;
+  /* color: rgb(17, 5, 67); */
+}
+.btn {
+  background-color: rgb(34, 34, 145);
+  color: rgb(212, 35, 8);
+  border: none; /*Define មិនឲមានកម្រាស់ border របស់វា*/
+  padding: 6px 10px; /*  Define Padding លើក្រោមឆ្វេងស្តាំ*/
+  border-radius: 10px;
+  margin: 5px;
+}
+/* hr {
+  color: rgb(17, 5, 67);
+} */
